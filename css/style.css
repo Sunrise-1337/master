@@ -1,0 +1,300 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Dongle', sans-serif;
+}
+main, footer{
+    min-width: 1260px;
+    padding: 0px 100px;
+}
+body{
+    width: 1280;
+}
+/* Header */
+header {
+    position: fixed;
+    height: 63px;
+    width: 100%;
+    border-bottom: 3px solid black;
+    background-color: white;
+    z-index: 10000;
+}
+.head-container{
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+}
+.logo{
+    height: 60%;
+    position: absolute;
+    top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+li {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 15px;
+}
+main {
+    padding-top: 182px;
+}
+/* Декор кнопок */
+.menu-item-link{
+    display: block;
+    font-size: 30px;
+    color: black;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.menu-item-link:hover{
+    border-bottom: 3px solid black;
+}
+/* Секция 1 */
+.sec-1{
+    margin: 0px auto;
+    height: 258px;
+    position: relative;
+    width: 789px;
+}
+.sec-1-item{
+    display: inline-block;
+}
+.sec-1-text{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin-right: 53px;
+}
+h1{
+    font-size: 50px;
+    line-height: 45px;
+    margin-top: 0px;
+    text-transform: capitalize;
+}
+.p-sec-1{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.text-1{
+    line-height: 13.5px;
+    width: 360px;
+    font-size: 20px;
+}
+.vid{
+    position: absolute;
+    width: 376px;
+    top: 0px;
+    right: 0px;
+}
+.button-1{
+    height: 30px;
+    width: 113px;
+    background-color: #cccc00;
+    border: none;
+    text-align: center;
+}
+.button-1:hover{
+    background-color: #ffff00;
+}
+.button-1:active{
+    background-color: #ffff99;
+}
+/* Секция 2 */
+.sec-2{
+    margin-top: 178.5px;
+    width: 100%;
+    height: 140px;
+    padding: 20px 0;
+    margin-bottom: 152.5px;
+    border-top: 3px solid rgba(211, 211, 211, 0.3);
+    border-bottom: 3px solid rgba(211, 211, 211, 0.3);
+}
+.log-wrap{
+    height: 80px;
+    width: 900px;
+    margin: auto;
+}
+.logos-line{
+    margin: 0px 23px;
+    height: 100%;
+}
+/* Секция 3 */
+.sec-3{
+    margin: auto;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 45px;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 20px;
+}
+.blog-info{
+    width: 789px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.blog-headline{
+    margin-bottom: 15px;
+}
+.blog-text{
+    width: 492px;
+    font-size: 17px;
+}
+.blog-content-wrap{
+    width: fit-content;
+    margin: auto;
+}
+.blog-content{
+    display: inline-block;
+    margin: 0px 15px;
+
+}
+.vid-2{
+    width: 320px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+.vid-text{
+    width: 280px;
+    line-height: 13px;
+}
+date {
+    margin-left: 3px;
+}
+/* Секция 4 */
+.sec-4{
+    width: 433px;
+    margin: auto;
+    margin-top: 166px;
+}
+.contact-info{
+    margin-bottom: 15px;
+}
+.contact-headline{
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+.form-left{
+    margin-left: 10px;
+}
+.contact-form-wrap{
+    margin-bottom: 83px;
+}
+.form-headline{
+    font-size: 30px;
+    margin-left: 5px;
+}
+.form-stage{
+    display: block;
+    margin-top: 10px;
+    width: 350px;
+    border: none;
+    background-color: rgba(211, 211, 211, 0.3);
+}
+textarea{
+    resize: none;
+    height: 88px;
+    margin-bottom: 10px;
+}
+/* Значки контактов */
+.contact-adress{
+    width: 416px;
+    height: 65px;
+    margin: auto;
+    font-size: 0px;
+}
+.contact-column{
+    display: inline-block;
+    height: 63px;
+    width: 110px;
+    margin: 0px 14px;
+    vertical-align: top;
+}
+.middle-pic{
+    margin: 4px auto 3px;
+    display: block;
+    width: 16px;
+}
+.middle-text{
+    font-size: 15px;
+    line-height: 10px;
+    text-align: center;
+    margin-top: 8px;
+}
+.pic-2{
+    width: 13px;
+}
+.pic-3{
+    width: 18px;
+}
+/* Значки медиа */
+.contact-medias{
+    height: 23px;
+    width: 145px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.medias-pic{
+    height: 21px;
+    margin: auto;
+}
+.tw{
+    margin-left: 46px;
+}
+.web{
+    margin-left: 40px;
+}
+/* Footer */
+footer{
+    height: 120px;
+    width: 100%;
+    background-color: #1e1e1e;
+}
+.foot-container{
+    width: 754px;
+    height: 100%;
+    margin: auto;
+}
+.foot-content-wrap{
+    position: relative;
+}
+.logo-2{
+    height: 38px;
+    margin-top: 43px;
+    margin-right: 20px;
+}
+.footer-text{
+    color: white;
+    font-size: 15px;
+}
+.logo-2, .company{
+    display: inline-block;
+}
+.company{
+    top: 53px;
+    position: absolute;
+}
+.link-top{
+    position: absolute;
+    text-transform: uppercase;
+    right: 0px;
+    top: 53px;
+}
